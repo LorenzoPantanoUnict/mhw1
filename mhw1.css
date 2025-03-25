@@ -1,0 +1,274 @@
+.nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.flex-item {
+    height: 10vh;
+    width: 15vh;
+}
+
+.navbar{
+    height: 18vh;
+    width: 150px;
+}
+a.flex-item 
+{
+    color: white;
+    text-decoration: none;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#number{
+
+    color:white;
+    height: 100px;
+    width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+img#cassata {
+    width: 100%;
+}
+
+div#text-on-image {
+    position: relative;
+    top: -65vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4vw;
+}
+
+@media only screen and (max-width: 800px){
+    div#text-on-image{
+        position: relative;
+        top: -50vh;
+        left: 0%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 3vw;
+    }
+}
+
+section.mobile {
+    display: none;
+}
+div.linea{
+    display:none;
+}
+
+div.normal-txt{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fad7af;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+img#left{
+   float: left; 
+   margin-left: 5vw;
+   margin-top: 15vh;
+}
+
+img#right{
+    float: left;
+    margin-left: -10vw;
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+}
+
+div.right-txt{
+    float: right;
+    margin-right: 5vw;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    color: #000000;
+    font-family: 'Aalto Sans Essential Ultra Light', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.video-background{
+    display: block;
+    margin-left: 15vw;
+    margin-right: auto;
+}
+
+img#dolci{
+    float: right;
+    margin-top: 10vh;
+    margin-right: 20vw;
+}
+
+img#tortaGlassa{
+    float:right;
+    margin-top: 25vh;
+    margin-right: -47vw;
+}
+
+div.second-txt{
+    margin-top:  30vh;
+    float: left;
+    margin-left: 10vw;
+    font-size: 1.4rem;
+    font-family: 'Aalto Sans Essential Ultra Light', sans-serif;
+    font-weight: 120;
+}
+
+div.email{
+    display: block;
+    margin-top: 102.5vh;
+    height: 20vh;
+    font-size: rem;
+    color: #000000;
+    background-color: #feebd5; ;
+}
+
+section.email-txt{
+    padding-top: 5vh;
+    margin-right: 10vw;
+    text-align: right;
+}
+
+.input-email{
+    margin-top: 2vh;
+    margin-right: -2vh;
+    width: 25vw;
+}
+
+footer#end{
+    background-color: #153E35;
+}
+img.footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+
+}
+
+div.last-txt{
+    color: white;
+    margin-left: 5vw;
+    padding-bottom: 5vh;
+    line-height: 1.5;
+}
+@media only screen and (max-width: 800px) {
+    img#right{
+        float: left;
+        margin-left: -20vw;
+        margin-top: 20vw;
+        margin-bottom: 10vh;
+    }
+
+    div.email{
+        margin-top: 210vh;
+    }
+
+    .input-email{
+        width: 45vw;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .nav {
+        display: none;
+    }
+     
+    .flex-item {
+        width: 100%;
+        height: auto;
+    }
+
+    a.flex-item {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    section.mobile{
+        position: sticky;
+        top: 0;
+        display: flex;
+        flex-direction: column;;
+        background-color: rgb(0, 0, 0);
+        height: 8vh;
+        width: 100vw;
+    }
+
+    div.linea{
+        display: flex;
+        border-radius: 10%;
+        justify-content: space-around;
+        width: 5vw;
+        height: 1vh;
+        margin-left: 90vw;
+        margin-top: 1.2vh;
+        background-color: rgb(255, 255, 255);
+    }
+
+    img.logo-mobile {
+        height: 100%;
+        width: 10%;
+        flex-direction: row;
+    }
+
+    #number {
+        width: 100%;
+        height: auto;
+    }
+
+    div#text-on-image {
+        font-size: 5vw;
+        top: -50vh; 
+    }
+
+    img#right{
+        float: left;
+        margin-left: 10vw;
+        margin-top: -70vw;
+        margin-bottom: 10vh;
+    }
+    
+    img#dolci{
+        float: right;
+        margin-top: 25vh;
+        margin-right: 20vw;
+    }
+    
+    img#tortaGlassa{
+        float:right;
+        margin-top: -90vh;
+        margin-right: -5vw;
+    }
+
+    div.email{
+        margin-top: 250vh;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    div#text-on-image {
+        font-size: 5vw;
+        top: -40vw; 
+    }
+}
+
+
+
+
+
